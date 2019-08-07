@@ -24,20 +24,37 @@ header{
    display: grid;
    grid-template-columns: 2fr 1fr 1fr 1fr 1fr 1fr 1fr;
    grid-template-rows: 100px;
+   text-align: center;
+   font-family: 'Montserrat', sans-serif;
+}
+header div a{
+	text-decoration: none;
+	font-weight: 700;
+    color: black;
+    font-size: 25px;
+    line-height: 30px;
+}
+header div span{
+	font-weight: 400;
+	font-size: 17px;
+	line-height: 28px;
+	font-style: italic;
 }
 
 .btn{
 	height:23px;
 	width: 100px;
-	align-items: center;
-	justify-content: center;
+	margin-top: 30px;
 }
 
 .section-1{
 	display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 730px 730px;
+  text-align: left;
+
 }
+
 
 .single-article-1{
 	background-color: var(--grayshade);
@@ -56,41 +73,78 @@ header{
 
 	width: 100px;
 	height: 100px;
+	margin-top: 200px;
+    padding-left: 50px
 }
 .section-1 p{
 	font-weight: 700;
 	font-size: 30px;
 	font-style: bold;
+	padding-left: 50px;
 
 }
 .section-2, .section-4{
 	display: grid;
 	grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 335px;
+    grid-template-rows: auto;
     background-color: #E2E1E1;
 }
 .more-articles, .section-4 article{
 	margin: 0px;
 	padding: 40px 22px;
+	font-family: 'Montserrat', sans-serif;
 }
-.more-articles div{
-font-size: 20px;
-line-height: 25px;
-font-weight: 500;
-font-style: bold;
-margin-bottom: 20px;
-color: white;
+.heading{
+	
+    font-size: 28px;
+    line-height: 34px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: white;
 }
-.section-3{
+.more-articles p{
+	font-size: 20px;
+    line-height: 24px;
+    font-weight: 300;
+    
+}
+
+.section-three{
 	display: grid;
 	grid-template-columns: 2fr 1fr;
     grid-template-rows: 700px;
     margin: 20px;
 }
 .left-box{
-	background-color: #D6D6D6;
+	background-color: var(--lightergrayshade);
 	margin-right: 20px;
 	border-radius: 5px;
+	padding: 250px 100px 0px 200px;
+}
+.left-box h1{
+	font-size: 44px;
+	line-height: 53px;
+	color: #FFF;
+	margin-bottom: 30px;
+	text-decoration: underline;
+	font-weight: 700;
+}
+.left-box p, .right-box p{
+	font-size: 21px;
+	font-weight: 30px;
+	color: #FFF;
+	font-weight: 300;
+
+}
+.right-box p{
+	color: black;
+}
+.right-box h2{
+	font-size: 28px;
+    line-height: 34px;
+    font-weight: 700;
+    text-decoration: underline;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .section-5 {
